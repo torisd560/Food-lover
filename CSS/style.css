@@ -4,20 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     font-family: 'Rubik',sans-serif;
 }
-html{
-    scroll-behavior: smooth;
-}
 /* header setion style */
 header{
-        background-image: url(/images/main-bg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.9;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/images/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
 }
+main{
+    background: black;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+/* -----------------
+ start nabvar style
+--------------- */
 .navbar-background{
     background: black;
 }
@@ -25,15 +36,16 @@ nav ul li a{
     font-weight: 700;
     font-size: 20px;
 }
+/*-----------------
+ stat banner part
+ ------------- */
+ .banner-part{
+     margin-top: 100px;
+ }
 .breakfast{
     font-size: 45px;
     font-weight: bold;
     color: rgb(229, 143, 0);
-}
-.breakfast-p{
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
 }
 .bg-warning-breakfast{
     background: rgb(229, 143, 0);
@@ -42,3 +54,6 @@ nav ul li a{
     font-weight: bold;
     padding: 10px 20px;
 }
+/*----------------
+ end banner part
+ ------------- */
