@@ -1,0 +1,44 @@
+/* common style or utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Rubik',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header setion style */
+header{
+        background-image: url(/images/main-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+}
+.navbar-background{
+    background: black;
+}
+nav ul li a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.breakfast{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(229, 143, 0);
+}
+.breakfast-p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.bg-warning-breakfast{
+    background: rgb(229, 143, 0);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
