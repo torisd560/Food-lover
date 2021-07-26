@@ -13,7 +13,7 @@ body{
 }
 /* header setion style */
 header{
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/images/main-bg.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/main-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
@@ -57,3 +57,14 @@ nav ul li a{
 /*----------------
  end banner part
  ------------- */
+ /* --------------
+ food quality part satrt
+ ------------- */
+ .food-quality{
+    background: url("../images/food-quality/banner-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+ }
+ .custom-mt-5{
+    margin-top: 450px;
+ }
