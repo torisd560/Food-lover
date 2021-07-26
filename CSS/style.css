@@ -68,3 +68,26 @@ nav ul li a{
  .custom-mt-5{
     margin-top: 450px;
  }
+ /* ---------
+ start food gallery
+ -------------  */
+ .gallery-image:hover {
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+ }
+ /* ------------------
+ start enjoy our food section
+ --------------- */
+ .enjoy-our-food{
+     background-image: url("../images/main-bg.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ .enjoy-food-details{
+     height: 700px;
+ }
+ .enjoy-food-text{
+    border: 5px solid rgb(229, 143, 0)
+}
+ 
