@@ -23,48 +23,52 @@
    <header> 
     <nav class="navbar navbar-expand-lg navbar-dark navbar-background fixed-top">
         <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex  justify-content-between mt-2 px-5 ">
-            <ul class="navbar-nav align-items-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#About">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"  href="#Menu">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Offers">Offers</a>
-              </li>
-            </ul>
-                <a class="navbar-brand " aria-current="page"  href="#">
-                  <img  src="images/logo-nav.png" alt="">
-                </a>
-            <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="#Gallery">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="#Contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="#Blog">Blog</a>
-                  </li>
-			</ul>
-          </div>
+			<a class="" aria-current="page" href="#"><img class="d-lg-none d-sm-block"
+				src="images/logo-nav.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+			data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse"  id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#Home">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#About">About</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page"  href="#Menu">Menu</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#Offers">Offers</a>
+					  </li>
+					</ul>
+						<a class="navbar-brand d-none d-lg-block" aria-current="page"  href="#">
+						  <img  src="images/logo-nav.png" alt="">
+						</a>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page"  href="#Gallery">Gallery</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page"  href="#Contact">Contact</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page"  href="#Blog">Blog</a>
+						  </li>
+					</ul>
+			</div>
         </div>
       </nav>
       <!---------- start banner part ------------->
-      <section class=" container banner-part">
-            <div class="row p-5 align-items-center ">
-                <div class="col-lg-6">
+      <section class=" container banner-part" id="Home">
+            <div class="row p-5 d-flex align-items-center justify-content-center">
+                <div class=" col-lg-6">
                     <img class="img-fluid" src="images/main.png" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class=" col-lg-6">
                     <h1 class="breakfast">Contact Us For <br> Best Breakfast</h1>
                     <p>Would you like thousands of new customers to taste your amazing food? So would we! It's simple: we list your menu online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat!
                     </p>
@@ -78,7 +82,7 @@
    <!---------end header--------->
    <main>
      <!-- start about section   -->
-	<section>
+	<section  id="About"> 
 		<div class="container p-5 ">
 		  <div class="row d-flex align-items-center justify-content-center py-5">
 			<div class="col-lg-6 ">
@@ -92,7 +96,7 @@
 	</section>
 	 <!-- end about section -->
    <!-- start food quality section -->
-   <section class="food-quality">
+   <section class="food-quality" >
      <div class="container-fluid">
        <div  style=" height: 450px;" class="row d-flex align-items-center justify-content-center">
          <div class="col-lg-6 p-5 mt-5">
@@ -121,10 +125,10 @@
    </section>
    <!-- end food quality section -->
    <!--  start  food gallery section-->
-   <section>
-	<div class="container w-100">
+   <section id="Gallery">
+	<div class="container w-100" >
 		<h2 class="text-white text-center p-5" >Food gallery</h2>
-		<div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-4 pb-5">
+		<div class="row  row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-5">
 		  <div class="col">
 			<img class="img-fluid w-100 gallery-image" src="images/food-gallery/food-1.png" alt="">
 		  </div>
@@ -148,17 +152,17 @@
    </section>
    <!-- end food gallery section -->
    <!-- start enjoy-our-food section -->
-   <section class="enjoy-our-food w-100 my-5">
+   <section class="enjoy-our-food w-100 my-5"  id="Blog">
 	   <div class="enjoy-food-details container d-flex justify-content-center align-items-center ">
-		<div class=" enjoy-food-text text-center p-5 w-50">
-			<h1 class="text-white pb-4">Enjoy Our Food</h1>
-			<p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your home or office? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and local favourites near you to help satisfy your hunger through our online food delivery service. Cuisines are diverse: whether you fancy a juicy burger from Takeout, fresh sushi from Samdado or peri peri chicken from Nando's.</p>
+		<div class=" enjoy-food-text text-center  d-none d-md-block d-lg-block p-5 w-50">
+			<h1 class="text-white pb-4" >Enjoy Our Food</h1>
+			<p class=" overflow-hidden">Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your home or office? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and local favourites near you to help satisfy your hunger through our online food delivery service. Cuisines are diverse: whether you fancy a juicy burger from Takeout, fresh sushi from Samdado or peri peri chicken from Nando's.</p>
 		</div>
 	   </div>
    </section>
    <!-- end enjoy-our-food section -->
    <!-- start our-menu scetion -->
-   <section>
+   <section  id="Menu">
 	  <div class="container">
       <h1 class="text-white text-center my-5 p-4">Our Menu</h1>
       <div class="row pb-5 d-flex justify-content-center g-4">
@@ -185,14 +189,14 @@
    </section>
    <!-- end our-menu scetion -->
    <!-- -------start enjoy best meal section----- -->
-   <section class="enoy-best-meal">
+   <section class="enoy-best-meal" id="Offers">
      <div class="container">
        <div class="row d-flex justify-content-cernter align-items-center p-5 ">
          <div class="col-lg-6">
            <img class="img-fluid" src="images/meal.png" alt="">
          </div>
          <div class="col-lg-6">
-          <h1 class="fw-bold">Enjoy Best Meal</h1>
+          <h1 class="fw-bold"  >Enjoy Best Meal</h1>
           <p>Like many Big Little Recipes, the balsamic comes in more than once. First, it teams up with water and salt for a brine-slash-marinade. This mixture encourages lean chicken breasts to stay juicy.</p>
          </div>
        </div>
@@ -201,8 +205,8 @@
    <!-- -------end enjoy best meal section----- -->
    </main>
    <footer>
-     <section>
-       <div class="container-fluid py-5">
+     <section  id="Contact">
+       <div class="container py-5">
          <div class="row d-flex flex-column justify-content-center align-items-center w-100">
            <div class="col-lg-6">
             <div class=" text-center">
@@ -213,14 +217,14 @@
             <div class="social-icon">
 			 <h5>Contact Us :</h5>
 			 <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-twitter-square"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter-square" ></i></a>
+              <a href="#"><i class="fab fa-github" ></i></a>
               <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
            </div>
          </div>
         </div>
-		<p class="text-center py-5  " >All rights Reserved © Lipi Sutradhar Tori, 2021 | a Programming Hero learner. </p>
+		<p class="text-center py-5 m-0 " >All rights Reserved © Lipi Sutradhar Tori, 2021 | a Programming Hero learner. </p>
       </section>
    </footer>
    <!----------- sripte js link -------->

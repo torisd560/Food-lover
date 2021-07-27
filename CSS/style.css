@@ -40,7 +40,7 @@ nav ul li a{
  stat banner part
  ------------- */
  .banner-part{
-     margin-top: 100px;
+     margin-top: 90px;
  }
 .breakfast{
     font-size: 45px;
@@ -119,4 +119,8 @@ footer a{
 footer p{
     font-size: inherit;
 }
+/*----------------------------------- 
+all styles end 
+----------------------------------*/
+
  
