@@ -90,4 +90,33 @@ nav ul li a{
  .enjoy-food-text{
     border: 5px solid rgb(229, 143, 0)
 }
+/*-----------------
+ start our menu
+ ----------------- */
+ .menu-title{
+    color: rgb(229, 143, 0);
+ }
+ /* ----------
+ start enjoy best meal
+ ------------- */
+ .enoy-best-meal{
+     background-image: url("../images/food-quality/banner-2.png");
+ }
+ /* -------------------
+ start footer section
+ ------------------ */
+ footer{
+     background-color: black;
+ }
+ .social-icon{
+     text-align: center;
+     font-size: 20px;
+     color:rgb(218, 212, 212);
+}
+footer a{
+    color: inherit;
+}
+footer p{
+    font-size: inherit;
+}
  
